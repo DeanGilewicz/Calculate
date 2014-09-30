@@ -1,7 +1,25 @@
-body {
-  margin: 10px, auto;
+
+
+$color1: hsla(216, 84%, 50%, 1);
+
+
+
+.calculator {
+  background-image: url('http://pixabay.com/static/uploads/photo/2013/11/28/11/30/paw-print-220231_640.jpg');
+  text-align: center;
+
+  img {
+    display: inline-block;
+    width: 300px;
+    border-radius: 100px;
+  }
 }
 
-img {
-  max-width: 50%;
-}
+  .button {
+    padding: 10px;
+    text-transform: uppercase;
+  }
+
+  .button:hover {
+    background-color: $color1;
+  }
