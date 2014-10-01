@@ -1,16 +1,32 @@
-.calculator {
-  background-image: url("http://pixabay.com/static/uploads/photo/2013/11/28/11/30/paw-print-220231_640.jpg");
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center; }
+
+.calculator {
+  display: inline-block;
+  background-color: HSLA(221, 16%, 20%, 1);
+  padding: 25px 15px;
+  border-radius: 20px; }
   .calculator img {
-    display: inline-block;
-    width: 300px;
-    border-radius: 100px; }
+    width: 200px;
+    border-radius: 20px; }
+  .calculator h3 {
+    color: HSLA(0, 0%, 97%, 1); }
 
 .button {
-  padding: 10px;
-  text-transform: uppercase; }
+  padding: 0px 5px;
+  text-transform: uppercase;
+  width: 72px; }
+  .button:hover {
+    background-color: HSLA(129, 44%, 66%, 1); }
 
-.button:hover {
-  background-color: #146aeb; }
+.selection {
+  margin-top: 10px; }
+
+.answer {
+  margin-top: 20px;
+  color: HSLA(0, 0%, 97%, 1);
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
